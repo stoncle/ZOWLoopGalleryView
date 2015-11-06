@@ -2,6 +2,7 @@
 a loop gallery view to display image and video with easy access to add media in.
 
 In many cases we want a gallery view that can display both image and video in. And also **Loop Scrolling**.
+![](https://github.com/stoncle/ZOWLoopGalleryView/blob/master/ZOWLoopGalleryView/ZOWLoopGalleryView.gif)
 
 ##Installation
 Drag **ZOWLoopGalleryView.h** and **ZOWLoopGallleryView.m** to your project. And import.
