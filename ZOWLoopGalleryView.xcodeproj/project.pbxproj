@@ -1,0 +1,547 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F99809EF1BEC72B20031488B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F99809EE1BEC72B20031488B /* main.m */; };
+		F99809F21BEC72B20031488B /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F99809F11BEC72B20031488B /* AppDelegate.m */; };
+		F99809F51BEC72B20031488B /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F99809F41BEC72B20031488B /* ViewController.m */; };
+		F99809F81BEC72B20031488B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F99809F61BEC72B20031488B /* Main.storyboard */; };
+		F99809FA1BEC72B20031488B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F99809F91BEC72B20031488B /* Assets.xcassets */; };
+		F99809FD1BEC72B20031488B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F99809FB1BEC72B20031488B /* LaunchScreen.storyboard */; };
+		F9980A081BEC72B20031488B /* ZOWLoopGalleryViewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = F9980A071BEC72B20031488B /* ZOWLoopGalleryViewTests.m */; };
+		F9980A131BEC72B20031488B /* ZOWLoopGalleryViewUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = F9980A121BEC72B20031488B /* ZOWLoopGalleryViewUITests.m */; };
+		F9980A231BEC730A0031488B /* ZOWLoopGalleryView.m in Sources */ = {isa = PBXBuildFile; fileRef = F9980A221BEC730A0031488B /* ZOWLoopGalleryView.m */; };
+		F9980A261BEC76BF0031488B /* lufy1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F9980A241BEC76BF0031488B /* lufy1.jpg */; };
+		F9980A271BEC76BF0031488B /* lufy2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F9980A251BEC76BF0031488B /* lufy2.jpg */; };
+		F9980A291BEC76EA0031488B /* video.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = F9980A281BEC76EA0031488B /* video.mp4 */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F9980A041BEC72B20031488B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F99809E21BEC72B20031488B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F99809E91BEC72B20031488B;
+			remoteInfo = ZOWLoopGalleryView;
+		};
+		F9980A0F1BEC72B20031488B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F99809E21BEC72B20031488B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F99809E91BEC72B20031488B;
+			remoteInfo = ZOWLoopGalleryView;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		F99809EA1BEC72B20031488B /* ZOWLoopGalleryView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ZOWLoopGalleryView.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F99809EE1BEC72B20031488B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		F99809F01BEC72B20031488B /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		F99809F11BEC72B20031488B /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		F99809F31BEC72B20031488B /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		F99809F41BEC72B20031488B /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		F99809F71BEC72B20031488B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F99809F91BEC72B20031488B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F99809FC1BEC72B20031488B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		F99809FE1BEC72B20031488B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F9980A031BEC72B20031488B /* ZOWLoopGalleryViewTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ZOWLoopGalleryViewTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F9980A071BEC72B20031488B /* ZOWLoopGalleryViewTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZOWLoopGalleryViewTests.m; sourceTree = "<group>"; };
+		F9980A091BEC72B20031488B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F9980A0E1BEC72B20031488B /* ZOWLoopGalleryViewUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ZOWLoopGalleryViewUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F9980A121BEC72B20031488B /* ZOWLoopGalleryViewUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZOWLoopGalleryViewUITests.m; sourceTree = "<group>"; };
+		F9980A141BEC72B20031488B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F9980A211BEC730A0031488B /* ZOWLoopGalleryView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZOWLoopGalleryView.h; sourceTree = "<group>"; };
+		F9980A221BEC730A0031488B /* ZOWLoopGalleryView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZOWLoopGalleryView.m; sourceTree = "<group>"; };
+		F9980A241BEC76BF0031488B /* lufy1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = lufy1.jpg; sourceTree = "<group>"; };
+		F9980A251BEC76BF0031488B /* lufy2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = lufy2.jpg; sourceTree = "<group>"; };
+		F9980A281BEC76EA0031488B /* video.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = video.mp4; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F99809E71BEC72B20031488B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F9980A001BEC72B20031488B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F9980A0B1BEC72B20031488B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F99809E11BEC72B20031488B = {
+			isa = PBXGroup;
+			children = (
+				F99809EC1BEC72B20031488B /* ZOWLoopGalleryView */,
+				F9980A061BEC72B20031488B /* ZOWLoopGalleryViewTests */,
+				F9980A111BEC72B20031488B /* ZOWLoopGalleryViewUITests */,
+				F99809EB1BEC72B20031488B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F99809EB1BEC72B20031488B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F99809EA1BEC72B20031488B /* ZOWLoopGalleryView.app */,
+				F9980A031BEC72B20031488B /* ZOWLoopGalleryViewTests.xctest */,
+				F9980A0E1BEC72B20031488B /* ZOWLoopGalleryViewUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F99809EC1BEC72B20031488B /* ZOWLoopGalleryView */ = {
+			isa = PBXGroup;
+			children = (
+				F9980A281BEC76EA0031488B /* video.mp4 */,
+				F9980A241BEC76BF0031488B /* lufy1.jpg */,
+				F9980A251BEC76BF0031488B /* lufy2.jpg */,
+				F9980A201BEC72E50031488B /* ZOWLoopGalleryView */,
+				F99809F01BEC72B20031488B /* AppDelegate.h */,
+				F99809F11BEC72B20031488B /* AppDelegate.m */,
+				F99809F31BEC72B20031488B /* ViewController.h */,
+				F99809F41BEC72B20031488B /* ViewController.m */,
+				F99809F61BEC72B20031488B /* Main.storyboard */,
+				F99809F91BEC72B20031488B /* Assets.xcassets */,
+				F99809FB1BEC72B20031488B /* LaunchScreen.storyboard */,
+				F99809FE1BEC72B20031488B /* Info.plist */,
+				F99809ED1BEC72B20031488B /* Supporting Files */,
+			);
+			path = ZOWLoopGalleryView;
+			sourceTree = "<group>";
+		};
+		F99809ED1BEC72B20031488B /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				F99809EE1BEC72B20031488B /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		F9980A061BEC72B20031488B /* ZOWLoopGalleryViewTests */ = {
+			isa = PBXGroup;
+			children = (
+				F9980A071BEC72B20031488B /* ZOWLoopGalleryViewTests.m */,
+				F9980A091BEC72B20031488B /* Info.plist */,
+			);
+			path = ZOWLoopGalleryViewTests;
+			sourceTree = "<group>";
+		};
+		F9980A111BEC72B20031488B /* ZOWLoopGalleryViewUITests */ = {
+			isa = PBXGroup;
+			children = (
+				F9980A121BEC72B20031488B /* ZOWLoopGalleryViewUITests.m */,
+				F9980A141BEC72B20031488B /* Info.plist */,
+			);
+			path = ZOWLoopGalleryViewUITests;
+			sourceTree = "<group>";
+		};
+		F9980A201BEC72E50031488B /* ZOWLoopGalleryView */ = {
+			isa = PBXGroup;
+			children = (
+				F9980A211BEC730A0031488B /* ZOWLoopGalleryView.h */,
+				F9980A221BEC730A0031488B /* ZOWLoopGalleryView.m */,
+			);
+			path = ZOWLoopGalleryView;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F99809E91BEC72B20031488B /* ZOWLoopGalleryView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F9980A171BEC72B20031488B /* Build configuration list for PBXNativeTarget "ZOWLoopGalleryView" */;
+			buildPhases = (
+				F99809E61BEC72B20031488B /* Sources */,
+				F99809E71BEC72B20031488B /* Frameworks */,
+				F99809E81BEC72B20031488B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ZOWLoopGalleryView;
+			productName = ZOWLoopGalleryView;
+			productReference = F99809EA1BEC72B20031488B /* ZOWLoopGalleryView.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F9980A021BEC72B20031488B /* ZOWLoopGalleryViewTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F9980A1A1BEC72B20031488B /* Build configuration list for PBXNativeTarget "ZOWLoopGalleryViewTests" */;
+			buildPhases = (
+				F99809FF1BEC72B20031488B /* Sources */,
+				F9980A001BEC72B20031488B /* Frameworks */,
+				F9980A011BEC72B20031488B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F9980A051BEC72B20031488B /* PBXTargetDependency */,
+			);
+			name = ZOWLoopGalleryViewTests;
+			productName = ZOWLoopGalleryViewTests;
+			productReference = F9980A031BEC72B20031488B /* ZOWLoopGalleryViewTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		F9980A0D1BEC72B20031488B /* ZOWLoopGalleryViewUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F9980A1D1BEC72B20031488B /* Build configuration list for PBXNativeTarget "ZOWLoopGalleryViewUITests" */;
+			buildPhases = (
+				F9980A0A1BEC72B20031488B /* Sources */,
+				F9980A0B1BEC72B20031488B /* Frameworks */,
+				F9980A0C1BEC72B20031488B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F9980A101BEC72B20031488B /* PBXTargetDependency */,
+			);
+			name = ZOWLoopGalleryViewUITests;
+			productName = ZOWLoopGalleryViewUITests;
+			productReference = F9980A0E1BEC72B20031488B /* ZOWLoopGalleryViewUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F99809E21BEC72B20031488B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0710;
+				ORGANIZATIONNAME = stoncle;
+				TargetAttributes = {
+					F99809E91BEC72B20031488B = {
+						CreatedOnToolsVersion = 7.1;
+					};
+					F9980A021BEC72B20031488B = {
+						CreatedOnToolsVersion = 7.1;
+						TestTargetID = F99809E91BEC72B20031488B;
+					};
+					F9980A0D1BEC72B20031488B = {
+						CreatedOnToolsVersion = 7.1;
+						TestTargetID = F99809E91BEC72B20031488B;
+					};
+				};
+			};
+			buildConfigurationList = F99809E51BEC72B20031488B /* Build configuration list for PBXProject "ZOWLoopGalleryView" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F99809E11BEC72B20031488B;
+			productRefGroup = F99809EB1BEC72B20031488B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F99809E91BEC72B20031488B /* ZOWLoopGalleryView */,
+				F9980A021BEC72B20031488B /* ZOWLoopGalleryViewTests */,
+				F9980A0D1BEC72B20031488B /* ZOWLoopGalleryViewUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F99809E81BEC72B20031488B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F9980A271BEC76BF0031488B /* lufy2.jpg in Resources */,
+				F9980A261BEC76BF0031488B /* lufy1.jpg in Resources */,
+				F9980A291BEC76EA0031488B /* video.mp4 in Resources */,
+				F99809FD1BEC72B20031488B /* LaunchScreen.storyboard in Resources */,
+				F99809FA1BEC72B20031488B /* Assets.xcassets in Resources */,
+				F99809F81BEC72B20031488B /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F9980A011BEC72B20031488B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F9980A0C1BEC72B20031488B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F99809E61BEC72B20031488B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F9980A231BEC730A0031488B /* ZOWLoopGalleryView.m in Sources */,
+				F99809F51BEC72B20031488B /* ViewController.m in Sources */,
+				F99809F21BEC72B20031488B /* AppDelegate.m in Sources */,
+				F99809EF1BEC72B20031488B /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F99809FF1BEC72B20031488B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F9980A081BEC72B20031488B /* ZOWLoopGalleryViewTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F9980A0A1BEC72B20031488B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F9980A131BEC72B20031488B /* ZOWLoopGalleryViewUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F9980A051BEC72B20031488B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F99809E91BEC72B20031488B /* ZOWLoopGalleryView */;
+			targetProxy = F9980A041BEC72B20031488B /* PBXContainerItemProxy */;
+		};
+		F9980A101BEC72B20031488B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F99809E91BEC72B20031488B /* ZOWLoopGalleryView */;
+			targetProxy = F9980A0F1BEC72B20031488B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		F99809F61BEC72B20031488B /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F99809F71BEC72B20031488B /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		F99809FB1BEC72B20031488B /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F99809FC1BEC72B20031488B /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F9980A151BEC72B20031488B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F9980A161BEC72B20031488B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F9980A181BEC72B20031488B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = ZOWLoopGalleryView/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = stoncle.ZOWLoopGalleryView;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		F9980A191BEC72B20031488B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = ZOWLoopGalleryView/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = stoncle.ZOWLoopGalleryView;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		F9980A1B1BEC72B20031488B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = ZOWLoopGalleryViewTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = stoncle.ZOWLoopGalleryViewTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ZOWLoopGalleryView.app/ZOWLoopGalleryView";
+			};
+			name = Debug;
+		};
+		F9980A1C1BEC72B20031488B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = ZOWLoopGalleryViewTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = stoncle.ZOWLoopGalleryViewTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ZOWLoopGalleryView.app/ZOWLoopGalleryView";
+			};
+			name = Release;
+		};
+		F9980A1E1BEC72B20031488B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = ZOWLoopGalleryViewUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = stoncle.ZOWLoopGalleryViewUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = ZOWLoopGalleryView;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		F9980A1F1BEC72B20031488B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = ZOWLoopGalleryViewUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = stoncle.ZOWLoopGalleryViewUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = ZOWLoopGalleryView;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F99809E51BEC72B20031488B /* Build configuration list for PBXProject "ZOWLoopGalleryView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F9980A151BEC72B20031488B /* Debug */,
+				F9980A161BEC72B20031488B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F9980A171BEC72B20031488B /* Build configuration list for PBXNativeTarget "ZOWLoopGalleryView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F9980A181BEC72B20031488B /* Debug */,
+				F9980A191BEC72B20031488B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		F9980A1A1BEC72B20031488B /* Build configuration list for PBXNativeTarget "ZOWLoopGalleryViewTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F9980A1B1BEC72B20031488B /* Debug */,
+				F9980A1C1BEC72B20031488B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		F9980A1D1BEC72B20031488B /* Build configuration list for PBXNativeTarget "ZOWLoopGalleryViewUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F9980A1E1BEC72B20031488B /* Debug */,
+				F9980A1F1BEC72B20031488B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F99809E21BEC72B20031488B /* Project object */;
+}
